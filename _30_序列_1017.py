@@ -24,14 +24,13 @@ print(word4)
 
 """
 # 序列切片的练习
-# “万过薪月，员序程马黑来，nohtyP学”取出黑马程序员
 # 方法一
-str1 = "万过薪月,员序程马黑来,nohtyP学"
+str1 = "万过薪月,,nohtyP学"
 right_Sequence = str1[::-1]
 print(right_Sequence)
 print(right_Sequence[9:14])
 # 方法二
-str2 = "万过薪月,员序程马黑来,nohtyP学"
+str2 = "万过薪月,,nohtyP学"
 word1 = str2.replace("来"," ")
 word2 = word1[::-1]
 word3 = word2.split(",")
