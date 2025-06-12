@@ -1,5 +1,5 @@
 # 通过占位的形式完成拼接
-name = "李帅"
+name = "Jacob"
 message0 = "今天熬夜的是：%s" % name
 print(message0)
 # 数字与字符串的拼接（多个占位符拼接需要用括号按顺序写变量）
